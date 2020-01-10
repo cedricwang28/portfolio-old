@@ -19,7 +19,7 @@ export default function Works(){
               <h4>Technical Details</h4>
               <p>I use css to restore the classical looking and JS as well as Jquery for the functions. The most tricky part of the algorithm is that when player clicks a block that doesn't have any mine around its eight blocks, how to automatically explore its surrounding blocks until a number-envoloped boundary is formed. I solved the problem by creating a function that open the surrounding blocks when the currently clicked block is 0, and recursively call the function until there is a positive number.</p>
               <h4>Skill Set</h4>
-              <p>Javascript, Jquery, Html, Css</p>
+              <p>Javascript, Jquery, Html, CSS</p>
               
             </div>
           </div>
