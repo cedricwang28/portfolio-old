@@ -11,6 +11,10 @@
         font-size: 6vh;  
     }
     .workSection{
+        h3{
+            font-family: roboto;
+            font-size: 20px;
+        }
         .workDiv{
             border-top: 1px grey solid;
             height: auto;
@@ -137,3 +141,21 @@
     }
 
 }
+
+.badge_img{
+    height: 40px;
+}
+
+.hoverBg{
+    width:100%;
+    height: 100%;
+    background-color: rgba(88,88,88,0.8);
+    display:none;
+}
+.projectPic:hover~.hoverBg{
+    display:block;
+    width:100%;
+    height: 100%;
+    background-color: rgba(88,88,88,0.8);
+}
+

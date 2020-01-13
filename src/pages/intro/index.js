@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Intro.module.scss';
-import {Link, Route, NavLink} from 'react-router-dom'
+import {Link, Route, NavLink} from 'react-router-dom';
+import { Switch } from '@material-ui/core';
 
 export default function Intro(){
   
@@ -23,11 +24,15 @@ export default function Intro(){
 
         <div>
           <h1>About Me</h1>
-          <p>I am a dynamic figure, often seen creating fake emails to get more free trials and preaching to Icelandic sheepherders. Sometimes, if you're lucky, you'll even see me erecting massive 500-story skyscrapers in my backyard. When I am bored, I charm cats with my godlike yodelling skills and my transcendental clarinet squeaks.
-
-          I am motivated to take risks. Sometimes, because I like to live dangerously, I play chess with one less pawn and do geometry in pen. Sometimes I even play on the Wii without the safety strap! I know - I'm a real daredevil. Sometimes I'm even amazed myself that I've managed to survive this long in the first place, what with all these totally dangerous and not at all normal feats! But nothing quite beats the adrenaline rush that I get from participating in a class discussion.
-
-          What many may find perplexing is St John's College's (frustrating) inability to spell my 4-letter name. However, this is simply one of many testaments to the fact that I simply transcend the English langua
+          <div className={styles.toggle}>
+            <span>boring</span>
+            <Switch value="checkedA" inputProps={{ 'aria-label': 'Switch A' }} />
+          </div>
+          
+          <p className={styles.aboutMe}>My name is Tianwei Wang, you can also call me Cedric. I am a second year Web Design Student in Durham College and I am especially interested in coding with both Vanilla Javascript and React. Prior to the program, I had gone through years in finding what I really want to do.
+            I spent four years finishing a Bachelor degree of Network Engineering, during the time I even had one year experience of learning Civil Engineering.  Perhaps due to the unwillingness of being confined in my hometown doing, from my opinion, too 'down-to-earth' job forever, and also being driven by the fantacy of 
+            doing a high-end job, wearing decent suit everyday and taking business class flying all over the world all year round, 3 years later, I got my Master degree of Finance and started to work in a big insurance company in a big city. But gradually, day-to-day unskilled routine work had torn my sweet dream, it made me ponder deeply, is this the stability I am looking for?
+            do I really want to idle my whole life doing the basic, unprofessional work with little growth?   I wouldn't allow my life being that way, so one year later, I quit my job and came to Canada to start my new life from scratch. 
           </p>
         </div>
       
