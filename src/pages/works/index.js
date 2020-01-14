@@ -8,12 +8,20 @@ export default function Works(){
       <p>My Project</p>
       
       <section className={styles.workSection}>
+        <span className={styles.gameCircle+' '+styles.circle}></span>
         <h3>JS Game</h3>
         <div className={styles.workDiv}>
 
           <div className={styles.cards+" "+styles.game1}>
-            <div className={styles.projectPic}>
-              <div className={styles.hoverBg}></div>
+            <div className={styles.projectPic}>  
+              <div className={styles.hoverBg}>
+                <p>
+                  <a href="https://cedricwang28.github.io/mineSweeper/"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> View Project</a>
+                </p>
+                <p>
+                  <a href="https://github.com/cedricwang28/mineSweeper"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> Repository</a>
+                </p>
+              </div>
             </div>
             <div className={styles.projectDisc}>
               <h4>Overview</h4>
@@ -22,8 +30,7 @@ export default function Works(){
               <p>I use css to restore the classical looking and JS as well as Jquery for the functions. The most tricky part of the algorithm is that when player clicks a block that doesn't have any mine around its eight blocks, how to automatically explore its surrounding blocks until a number-envoloped boundary is formed. I solved the problem by creating a function that open the surrounding blocks when the currently clicked block is 0, and recursively call the function until there is a positive number.</p>
               <h4>Skill Set</h4>
               <p>
-                <img src={require('../../assets/html_badge.png')} className={styles.badge_img}></img>
-                <img src={require('../../assets/css_badge.png')} className={styles.badge_img}></img>
+                Javascript, Jquery
               </p>
               
             </div>
@@ -58,8 +65,30 @@ export default function Works(){
       </section>
 
       <section className={styles.workSection}>
+      <span className={styles.frameworkCircle+' '+styles.circle}></span>
         <h3>JS Framework</h3>
         <div className={styles.workDiv}>
+
+          <div className={styles.cards+" "+styles.framework3}>
+            <div className={styles.projectPic}>
+              <div className={styles.hoverBg}>
+                <p>
+                  <a href="https://cedricwang28.github.io/github-user-search"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> View Project</a>
+                </p>
+                <p>
+                  <a href="https://github.com/cedricwang28/github-user-search"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> Repository</a>
+                </p>
+              </div>
+            </div>
+            <div className={styles.projectDisc}>
+              <h4>Overview</h4>
+              <p>A app used to search users from github</p>
+              <h4>Technical Details</h4>
+              <p>A app used to search users from github with a github API</p>
+              <h4>Skill Set</h4>
+              <p>React, Sass, Axios, github API</p>
+            </div>
+          </div>
 
           <div className={styles.cards+" "+styles.framework1}>
             <div className={styles.projectPic}></div>
@@ -87,23 +116,13 @@ export default function Works(){
             </div>
           </div>
 
-          <div className={styles.cards}>
-          <div className={styles.projectPic}></div>
-            <div className={styles.projectDisc}>
-              <h4>Overview</h4>
-              <p>dsfasdfasdfas</p>
-              <h4>Technical Details</h4>
-              <p>dsfasdfasdfas</p>
-              <h4>Skill Set</h4>
-              <p>dsfasdfasdfas</p>
-              
-            </div>
-          </div>
+          
         </div>
       </section>
      
 
       <section className={styles.workSection}>
+        <span className={styles.libraryCircle+' '+styles.circle}></span>
         <h3>JS Library</h3>
         <div className={styles.workDiv}>
 
@@ -149,6 +168,7 @@ export default function Works(){
       </section>
 
       <section className={styles.workSection}>
+        <span className={styles.responsiveCircle+' '+styles.circle}></span>
         <h3>Responsive Website</h3>
         <div className={styles.workDiv}>
 
@@ -166,7 +186,16 @@ export default function Works(){
           </div>
 
           <div className={styles.cards+" "+styles.responsive2}>
-            <div className={styles.projectPic}></div>
+            <div className={styles.projectPic}>
+              <div className={styles.hoverBg}>
+                <p>
+                  <a href="https://cedricwang28.github.io/port-hope-fair/"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> View Project</a>
+                </p>
+                <p>
+                  <a href="https://github.com/cedricwang28/port-hope-fair"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> Repository</a>
+                </p>
+              </div>
+            </div>
             <div className={styles.projectDisc}>
               <h4>Overview</h4>
               <p>Port Hope Fair</p>
@@ -194,6 +223,7 @@ export default function Works(){
       </section>
 
       <section className={styles.workSection}>
+        <span className={styles.uiCircle+' '+styles.circle}></span>
         <h3>UI/UX Design</h3>
         <div className={styles.workDiv}>
 

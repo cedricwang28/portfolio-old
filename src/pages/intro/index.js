@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import styles from './Intro.module.scss';
 import {Link, Route, NavLink} from 'react-router-dom';
 import { Switch } from '@material-ui/core';
 
 export default function Intro(){
+
+  const [toggle,setToggle] = useState(0);
   
   return (
     <div>
-      <section>
-        <div className={styles.banner}>
-          
-        </div>
-        <p>Tianwei Wang's</p>
-        <p>Portfio Website</p>
+      <section className={styles.jumbotron}>
+        <p>Tianwei Wang - Portfolio Website</p>
+
       </section>
 
       
@@ -26,7 +25,11 @@ export default function Intro(){
           <h1>About Me</h1>
           <div className={styles.toggle}>
             <span>boring</span>
-            <Switch value="checkedA" inputProps={{ 'aria-label': 'Switch A' }} />
+            <Switch value="checkedA" inputProps={{ 'aria-label': 'Switch A' }} 
+             onClick={()=>{
+               setToggle(toggle+1);
+               alert(toggle);
+             }} />
           </div>
           
           <p className={styles.aboutMe}>My name is Tianwei Wang, you can also call me Cedric. I am a second year Web Design Student in Durham College and I am especially interested in coding with both Vanilla Javascript and React. Prior to the program, I had gone through years in finding what I really want to do.

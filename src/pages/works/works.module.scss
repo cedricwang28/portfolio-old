@@ -6,16 +6,42 @@
     box-sizing: border-box;
     padding-left: 5vh;
     padding-right: 5vh;
+    padding-top: 100px;
     p{
         text-align: center;
         font-size: 6vh;  
     }
     .workSection{
+        margin-bottom: 30px;
+        .circle{
+            display: block;
+            float: left;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 5px;
+            transform: translate(0,6px);
+            background-color: #f1e05a;
+        }
+        .responsiveCircle{
+            background-color: #e34c26;
+        }
+        .frameworkCircle{
+            background-color: #4F5D95;
+        }
+        .libraryCircle{
+            background-color: #89e051;
+        }
+        .uiCircle{
+            background-color: pink;
+        }
         h3{
             font-family: roboto;
             font-size: 20px;
+            float: left;
         }
         .workDiv{
+            clear: both;
             border-top: 1px grey solid;
             height: auto;
             display: grid;
@@ -54,6 +80,7 @@
                     width: 100%;
                     height: 200px;
                     background-size: cover;
+                    z-index: 1;
                 } 
             }
             .game2{
@@ -88,12 +115,21 @@
                     background-size: cover;
                 }  
             }
+            .framework3{
+                .projectPic{
+                    background-image: url(../../assets/github.png);
+                    width: 100%;
+                    height: 200px;
+                    background-size: cover;
+                }  
+            }
             .library1{
                 .projectPic{
                     background-image: url(../../assets/d3.png);
                     width: 100%;
                     height: 200px;
                     background-size: cover;
+                   
                 }  
             }
             .library2{
@@ -147,15 +183,40 @@
 }
 
 .hoverBg{
-    width:100%;
-    height: 100%;
+    width: 100%;
+    height: 200px;
     background-color: rgba(88,88,88,0.8);
     display:none;
+   
 }
-.projectPic:hover~.hoverBg{
-    display:block;
-    width:100%;
-    height: 100%;
-    background-color: rgba(88,88,88,0.8);
+.projectPic:hover{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    z-index: -1;
+    .hoverBg{
+        display:block; 
+        box-sizing: border-box;
+        padding-top: 40px;
+        .arrow{
+            height: 18px;
+            transform: translate(0,3px);
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:white;
+            margin-bottom: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    
 }
+    
 

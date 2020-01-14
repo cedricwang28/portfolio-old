@@ -12,8 +12,9 @@ export default function App(){
     <div>
       <header>
         <img src={require('./assets/logo.png')}></img>
+        
         <div>
-          <i className="fas fa-hamburger"></i>
+          
           <NavLink to="/home" className={styles.navlink} activeStyle={{color:'white'}}>Home</NavLink>  
           <NavLink to="/works" className={styles.navlink} activeStyle={{color:'white'}}>Works</NavLink>
           <NavLink to="/contact" className={styles.navlink} activeStyle={{color:'white'}}>Contact</NavLink> 
