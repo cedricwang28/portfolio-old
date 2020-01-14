@@ -44,11 +44,21 @@
 
 .aboutMe{
     font-family: 'Roboto', sans-serif;
+    
 }
+
 
 .toggle{
     width: auto;
     margin: 5px auto;
+    padding-left: 40%;
+    span{
+        color:#035579;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        // display: inline-block;
+        // margin:5px auto;
+    }
 }
 
 
@@ -63,5 +73,8 @@
     }
     .mainWraper{
         display:block;
+    }
+    .toggle{
+        padding-left: 35%;
     }
   }
