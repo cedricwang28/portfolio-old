@@ -39,7 +39,7 @@ header{
     div{
       float: right;
       display: flex;
-      width: 20vw;
+      width: 24vw;
       margin-right: 4vw;
 
       .navlink{
@@ -55,8 +55,22 @@ header{
 }
 
 
-.fas{
-  color:blue;
-  font-size: 100px;
+.menu{
+  
+  visibility:hidden;
+  transform: translate(0,12px);
+  position: absolute;
+  right: 35px;
+}
+
+
+@media only screen and (max-width:900px){
+  .menu{
+    visibility: visible;
+  }
+
+  .navlink{
+    display: none;
+  }
 }
 
