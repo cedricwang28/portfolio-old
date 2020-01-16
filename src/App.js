@@ -1,13 +1,18 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import styles from './App.module.scss';
 import './app.css';
 import Intro from './pages/intro';
 import Works from './pages/works';
 import Contact from './pages/contact';
-import {Link, Route, NavLink} from 'react-router-dom';
+import {Route, NavLink} from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded.js';
+import CloseIcon from '@material-ui/icons/Close.js';
 
 export default function App(){
+
+  const [barMenu, setBarMenu] = useState(0);
+
+
   
   return (
     <div>
@@ -15,11 +20,58 @@ export default function App(){
         <img src={require('./assets/logo.png')}></img>
         
         <div>
-          <MenuRoundedIcon className={styles.menu} style={{fill: "white", fontSize: 40}} />
+          <MenuRoundedIcon className={styles.menu+' '+(barMenu?styles.openMenu:null)} style={{fill: "white", fontSize: 40}} onClick={()=>{
+            
+            if(barMenu){
+              setBarMenu(barMenu-1);
+            }else{
+              setBarMenu(barMenu+1);
+            }
+          
+           }} />
+          <CloseIcon className={styles.close+' '+(barMenu?styles.showClose:null)} style={{fill: "white", fontSize: 40}} onClick={()=>{
+            
+            if(barMenu){
+              setBarMenu(barMenu-1);
+            }else{
+              setBarMenu(barMenu+1);
+            }
+          
+           }} />
+          
+          <ul className={styles.linkUl+' '+(barMenu?null:styles.showSide)}>
+            <li><NavLink to="/home" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
+            
+              if(barMenu){
+                setBarMenu(barMenu-1);
+              }else{
+                setBarMenu(barMenu+1);
+              }
+            
+            }} >About</NavLink></li>
+            <li><NavLink to="/works" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
+            
+              if(barMenu){
+                setBarMenu(barMenu-1);
+              }else{
+                setBarMenu(barMenu+1);
+              }
+          
+           }}>Works</NavLink></li>
+            <li><NavLink to="/contact" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
+            
+              if(barMenu){
+                setBarMenu(barMenu-1);
+              }else{
+                setBarMenu(barMenu+1);
+              }
+          
+           }}>Contact</NavLink> </li>
+          </ul>
 
-          <NavLink to="/home" className={styles.navlink} activeStyle={{color:'white'}}>About</NavLink>  
-          <NavLink to="/works" className={styles.navlink} activeStyle={{color:'white'}}>Works</NavLink>
-          <NavLink to="/contact" className={styles.navlink} activeStyle={{color:'white'}}>Contact</NavLink> 
+          
+          
+          
         </div>
       </header>
 

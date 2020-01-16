@@ -31,20 +31,33 @@ header{
   z-index: 100;
   position: fixed;
 
+  ul{
+    list-style: none;
+    display: flex;
+    li{
+      float: left;
+      flex: 1;
+      line-height: 10vh;
+
+      .activeLink{
+        color: white;
+      }
+    }
+  }
+
     img{
       height: 8vh;
       margin-top: 1vh;
       margin-left: 2vw;
+    
     }
     div{
       float: right;
-      display: flex;
-      width: 24vw;
+      width: 250px;
       margin-right: 4vw;
 
       .navlink{
-        float:right;
-        flex: 1;
+        
         text-decoration: none;
         margin-top: 3vh;
         font-size: 18px;
@@ -58,19 +71,70 @@ header{
 .menu{
   
   visibility:hidden;
-  transform: translate(0,12px);
+  transform: translate(0,2vh);
   position: absolute;
-  right: 35px;
+  right: 30px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.close{
+  
+  visibility:hidden;
+  transform: translate(0,2vh);
+  position: absolute;
+  right: 30px;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 
-@media only screen and (max-width:900px){
+
+@media only screen and (max-width:800px){
   .menu{
     visibility: visible;
   }
 
-  .navlink{
+  
+  .openMenu{
+    visibility: hidden;
+  }
+  .showClose{
+    visibility: visible;
+  }
+
+  header div{
+    display: block;
+
+  }
+  
+
+  .linkUl{
+    background-color: #f1f1f1;
+    z-index: -3;
+    box-shadow: 0px 0px 8px #333;
+    position: absolute;
+    right: 0;
+    top:10.2vh;
+    height: 90vh;
+    width: 40%;
+    display: block;
+    border-radius: 4px;
+    li{
+      display: block;
+      text-align: center;
+      float: none;
+      .activeLink{
+        color: black;
+      }
+    }
+  }
+
+  .showSide{
     display: none;
   }
+  
 }
 
