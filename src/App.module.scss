@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+
+
 *{
   padding: 0;
   margin:0;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
@@ -30,6 +35,15 @@ header{
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
   z-index: 100;
   position: fixed;
+
+  .logo{
+    display: inline-block;
+    color: white;
+    font-size: 3vh;
+    margin-top: 3.5vh;
+    margin-left: 3vw;
+    font-family: 'Press Start 2P', cursive;
+  }
 
   ul{
     list-style: none;
@@ -73,7 +87,8 @@ header{
   visibility:hidden;
   transform: translate(0,2vh);
   position: absolute;
-  right: 30px;
+  right: 3vw;
+  top: 0vh;
   &:hover{
     cursor: pointer;
   }
@@ -84,7 +99,8 @@ header{
   visibility:hidden;
   transform: translate(0,2vh);
   position: absolute;
-  right: 30px;
+  right: 3vw;
+  top: 0vh;
   &:hover{
     cursor: pointer;
   }
@@ -92,7 +108,7 @@ header{
 
 
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:767px){
   .menu{
     visibility: visible;
   }

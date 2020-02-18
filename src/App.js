@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import styles from './App.module.scss';
-import './app.css';
 import Intro from './pages/intro';
 import Works from './pages/works';
 import Contact from './pages/contact';
-import {Route, NavLink} from 'react-router-dom';
+import {Route, NavLink, Redirect} from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded.js';
 import CloseIcon from '@material-ui/icons/Close.js';
 
@@ -17,7 +16,8 @@ export default function App(){
   return (
     <div>
       <header>
-        <img src={require('./assets/logo.png')}></img>
+        {/* <img src={require('./assets/logo.png')}></img> */}
+        <span className={styles.logo}>TIANWEI WANG</span>
         
         <div>
           <MenuRoundedIcon className={styles.menu+' '+(barMenu?styles.openMenu:null)} style={{fill: "white", fontSize: 40}} onClick={()=>{
@@ -66,7 +66,7 @@ export default function App(){
                 setBarMenu(barMenu+1);
               }
           
-           }}>Contact</NavLink> </li>
+           }}>Resume</NavLink> </li>
           </ul>
 
           
@@ -79,6 +79,7 @@ export default function App(){
         <Route path="/home" exact component={Intro}></Route>
         <Route path="/works" exact component={Works}></Route>
         <Route path="/contact" exact component={Contact}></Route>
+        <Redirect to="/home"></Redirect>
       </main>
 
       
