@@ -6,6 +6,9 @@ import Contact from './pages/contact';
 import {Route, NavLink, Redirect} from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded.js';
 import CloseIcon from '@material-ui/icons/Close.js';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 
 export default function App(){
 
@@ -85,6 +88,10 @@ export default function App(){
       
       
       <footer>
+        <p>
+          <GitHubIcon className={styles.socialIcon}></GitHubIcon>
+          <LinkedInIcon className={styles.socialIcon+' '+styles.linkIn}></LinkedInIcon>
+        </p>
         Tianwei Wang © 2020
       </footer>
 
