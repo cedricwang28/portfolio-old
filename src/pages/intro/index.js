@@ -20,10 +20,7 @@ export default function Intro(){
       
 
       <div className={styles.mainWraper}>
-        <div>
-          <img src={require('../../assets/photo2.jpg')} className={styles.myPhoto}></img>
-        </div>
-
+        
         <div>
           <h1>About Me</h1>
           
@@ -54,10 +51,34 @@ export default function Intro(){
           }
           
         </div>
-      
-      
+          
+
+        <div>
+          <img src={require('../../assets/photo2.jpg')} className={styles.myPhoto}></img>
+        </div> 
+
+        
+        <div>
+          <h1>Skill Set</h1>
+          <ul>
+            <li>HTML5 and CSS3</li>
+            <li>JavaScript with ES6+</li>
+            <li>Jquery, Bootstrap and Socket.io</li>
+            <li>SVG and Canvas</li>
+            <li>React/React Hook and Redux</li>
+            <li>Dart and Flutter</li>
+            <li>Node.js, Express and KOA</li>
+            <li>Mongodb</li>
+          </ul>
+        </div>
+
      
       </div>
+
+
+      
+
+
     </div>
     
 

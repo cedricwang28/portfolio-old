@@ -89,7 +89,7 @@ export default function App(){
       
       <footer>
         <p>
-          <GitHubIcon className={styles.socialIcon}></GitHubIcon>
+         <a href="https://github.com/cedricwang28"><GitHubIcon className={styles.socialIcon}></GitHubIcon></a> 
           <LinkedInIcon className={styles.socialIcon+' '+styles.linkIn}></LinkedInIcon>
         </p>
         Tianwei Wang © 2020
