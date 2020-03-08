@@ -103,4 +103,30 @@
     .toggle{
         padding-left: 35%;
     }
+
+
+    
+
+  }
+
+
+
+  @media only screen and (max-width: 600px){
+    .jumbotron{
+        
+        padding-top: 30vh;
+        box-sizing: border-box;
+        background-image: url(../../assets/bg.jpg);
+        background-position: center center;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .jumbotron p{
+        margin-top: 10vh;
+        font-size: 10vh;
+        text-align: center;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+    }
   }

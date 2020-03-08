@@ -60,6 +60,26 @@ export default function Works(){
             <div className={styles.projectPic}></div>
             
           </div>
+
+          <div className={styles.cards+" "+styles.connect4}>
+            <div className={styles.projectPic}></div>
+            
+          </div>
+
+          <div className={styles.cards+" "+styles.porthope}>
+            <div className={styles.projectPic}></div>
+            
+          </div>
+
+          <div className={styles.cards+" "+styles.madmovie}>
+            <div className={styles.projectPic}></div>
+            
+          </div>
+
+          <div className={styles.cards+" "+styles.ui}>
+            <div className={styles.projectPic}></div>
+            
+          </div>
           
 
           

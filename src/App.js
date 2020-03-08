@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './App.module.scss';
 import Intro from './pages/intro';
 import Works from './pages/works';
-import Contact from './pages/contact';
+import Resume from './pages/resume';
 import {Route, NavLink, Redirect} from 'react-router-dom';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded.js';
 import CloseIcon from '@material-ui/icons/Close.js';
@@ -61,7 +61,7 @@ export default function App(){
               }
           
            }}>Works</NavLink></li>
-            <li><NavLink to="/contact" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
+            <li><NavLink to="/resume" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
             
               if(barMenu){
                 setBarMenu(barMenu-1);
@@ -81,7 +81,7 @@ export default function App(){
       <main>
         <Route path="/home" exact component={Intro}></Route>
         <Route path="/works" exact component={Works}></Route>
-        <Route path="/contact" exact component={Contact}></Route>
+        <Route path="/resume" exact component={Resume}></Route>
         <Redirect to="/home"></Redirect>
       </main>
 

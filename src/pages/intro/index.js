@@ -12,7 +12,7 @@ export default function Intro(){
   return (
     <div>
       <section className={styles.jumbotron}>
-        <p>Junior Full-Stack Developer</p>
+        <p>Junior Full-Stack Web Developer</p>
         
 
       </section>
@@ -69,6 +69,7 @@ export default function Intro(){
             <li>Dart and Flutter</li>
             <li>Node.js, Express and KOA</li>
             <li>Mongodb</li>
+            <li>Git and Github</li>
           </ul>
         </div>
 

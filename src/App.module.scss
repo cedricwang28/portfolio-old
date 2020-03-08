@@ -53,8 +53,8 @@ header{
     display: inline-block;
     color: white;
     font-size: 14px;
-    margin-top: 4vh;
     margin-left: 3vw;
+    line-height: 10vh;
     font-family: 'Press Start 2P', cursive;
   }
 
@@ -65,9 +65,11 @@ header{
       float: left;
       flex: 1;
       line-height: 10vh;
+      
 
       .activeLink{
         color: white;
+        border-bottom: 2px white solid;
       }
     }
   }
