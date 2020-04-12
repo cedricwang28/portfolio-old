@@ -16,13 +16,13 @@
         text-align: center;
         font-family: Raleway,Helvetica Neue,Helvetica,sans-serif;
         margin-top: 3vh;
-        margin-bottom: 90px;
+        margin-bottom: 80px;
     }
 
     .grid{
         display: grid;
         grid-template-columns: repeat( auto-fill, minmax(320px, 1fr) );
-        grid-gap: 12vh 6vw;
+        grid-gap: 12vh 5vw;
         .card{
         
             img{
@@ -30,6 +30,7 @@
             }
             .text{
                 padding: 5px;
+                padding-left: 7px;
                 h2{
                     font-family: 'Raleway', sans-serif;
                 }
@@ -55,4 +56,8 @@
     
 
 }
+
+
+
+
 

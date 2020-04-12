@@ -28,7 +28,7 @@ export default function Works(){
           
           <div className={styles.text}>
             <h2>MineSweeper</h2>
-            <p className={styles.intro}>Classical Mine Sweeper game as my algorithm design practice.</p>
+            <p className={styles.intro}>Classical Mine Sweeper game with my algorithm design.</p>
             <p className={styles.skill}>Javascipt, Jquery</p>
           </div>
         </div>
@@ -63,11 +63,26 @@ export default function Works(){
           </div>
           
           <div className={styles.text}>
-            <h2>Real-time Chat</h2>
+            <h2>REST API</h2>
             <p className={styles.intro}>A restful API used for searching objects based on Geolocation.</p>
             <p className={styles.skill}>React, Express, Mongodb, Postman</p>
           </div>
         </div>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/articleManagement.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Article Management</h2>
+            <p className={styles.intro}>Article management system, It has user sign-up, log-in and article management function.</p>
+            <p className={styles.skill}>NodeJS, Express, ejs, MongoDB</p>
+          </div>
+        </div>
+
+
+
 
 
       </div>
