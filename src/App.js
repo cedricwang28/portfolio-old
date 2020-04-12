@@ -19,7 +19,7 @@ export default function App(){
   return (
     <div>
       <header>
-        {/* <img src={require('./assets/logo.png')}></img> */}
+  
         <span className={styles.logo}>TIANWEI WANG</span>
         
         <div>

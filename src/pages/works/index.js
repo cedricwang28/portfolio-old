@@ -5,90 +5,76 @@ export default function Works(){
   
   return (
     <div className={styles.wrapper}>
-      <h1>My Project</h1>
-      
-      <section className={styles.workSection}>
-        <div className={styles.workDiv}>
+      <h1>My Projects</h1>
 
-          <div className={styles.cards+" "+styles.game1}>
-            <div className={styles.projectPic}>  
-              <div className={styles.hoverBg}>
-                <p>
-                  <a href="https://cedricwang28.github.io/mineSweeper/"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> View Project</a>
-                </p>
-                <p>
-                  <a href="https://github.com/cedricwang28/mineSweeper"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> Repository</a>
-                </p>
-              </div>
-            </div>
-            
-          </div>
+      <div className={styles.grid}>
 
-
-          <div className={styles.cards+" "+styles.framework3}>
-            <div className={styles.projectPic}>
-              <div className={styles.hoverBg}>
-                <p>
-                  <a href="https://cedricwang28.github.io/github-user-search"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> View Project</a>
-                </p>
-                <p>
-                  <a href="https://github.com/cedricwang28/github-user-search"><img src={require('../../assets/arrow.png')} className={styles.arrow}></img> Repository</a>
-                </p>
-              </div>
-            </div>
-            
-          </div>
-
-
-          <div className={styles.cards+" "+styles.framework1}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-
-          <div className={styles.cards+" "+styles.library1}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.rest}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.chat}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.connect4}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.porthope}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.madmovie}>
-            <div className={styles.projectPic}></div>
-            
-          </div>
-
-          <div className={styles.cards+" "+styles.ui}>
-            <div className={styles.projectPic}></div>
-            
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/connect4.png')}></img>
           </div>
           
-
-          
+          <div className={styles.text}>
+            <h2>Connect Four</h2>
+            <p className={styles.intro}>A real-time Connect4 game, two real players required. When two windows are opened, the game starts.</p>
+            <p className={styles.skill}>Express, Socket.io, Jquery</p>
+          </div>
         </div>
-      </section>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/mineSweeper.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>MineSweeper</h2>
+            <p className={styles.intro}>Classical Mine Sweeper game as my algorithm design practice.</p>
+            <p className={styles.skill}>Javascipt, Jquery</p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/github.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Githuber Search</h2>
+            <p className={styles.intro}>An app used for searching any github user by their usernames.</p>
+            <p className={styles.skill}>React, Axios, Github API</p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/chat.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Real-time Chat</h2>
+            <p className={styles.intro}>A real-time chat room that allows multiple users to chat at the same time.</p>
+            <p className={styles.skill}>Express, Socket.io</p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/rest.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Real-time Chat</h2>
+            <p className={styles.intro}>A restful API used for searching objects based on Geolocation.</p>
+            <p className={styles.skill}>React, Express, Mongodb, Postman</p>
+          </div>
+        </div>
+
+
+      </div>
 
       
-     
-
+      
+      
 
      
 
