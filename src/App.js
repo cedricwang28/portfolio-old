@@ -45,27 +45,28 @@ export default function App(){
           <ul className={styles.linkUl+' '+(barMenu?null:styles.showSide)}>
             <li><NavLink to="/home" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
             
-              if(barMenu){
+              if(barMenu && window.innerWidth<=767){
                 setBarMenu(barMenu-1);
-              }else{
+              }else if(window.innerWidth<=767){
                 setBarMenu(barMenu+1);
               }
             
             }} >About</NavLink></li>
             <li><NavLink to="/works" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
             
-              if(barMenu){
+              if(barMenu && window.innerWidth<=767){
                 setBarMenu(barMenu-1);
-              }else{
+              }else if(window.innerWidth<=767){
                 setBarMenu(barMenu+1);
               }
           
            }}>Works</NavLink></li>
             <li><NavLink to="/resume" className={styles.navlink} activeClassName={styles.activeLink} onClick={()=>{
             
-              if(barMenu){
+              if(barMenu && window.innerWidth<=767){
                 setBarMenu(barMenu-1);
-              }else{
+                
+              }else if(window.innerWidth<=767){
                 setBarMenu(barMenu+1);
               }
           

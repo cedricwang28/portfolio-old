@@ -63,11 +63,13 @@ export default function Intro(){
           <ul>
             <li>HTML5 and CSS3</li>
             <li>JavaScript with ES6+</li>
-            <li>Jquery, Bootstrap and Socket.io</li>
+            <li>Jquery, Bootstrap</li>
             <li>SVG and Canvas</li>
             <li>React/React Hook and Redux</li>
+            <li>Sass, Webpack</li>
             <li>Dart and Flutter</li>
             <li>Node.js, Express and KOA</li>
+            <li>Socket.io</li>
             <li>Mongodb</li>
             <li>Git and Github</li>
           </ul>
