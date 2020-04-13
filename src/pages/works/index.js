@@ -109,11 +109,11 @@ export default function Works(){
             <p className={styles.intro}>A restful API used for searching objects based on Geolocation.</p>
             <p className={styles.skill}>React, Express, Mongodb, Postman</p>
             <p className={styles.goto}>
-              <a href="https://calm-basin-60014.herokuapp.com/" target="_blank">
+              <a href="" target="_blank">
                 <div className={styles.viewRepo}>View</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
-              <a href="https://github.com/cedricwang28/Connect4-Game" target="_blank">
+              <a href="https://github.com/cedricwang28/REST-API" target="_blank">
                 <div className={styles.viewRepo}>Repo</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
@@ -136,6 +136,28 @@ export default function Works(){
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
               <a href="https://github.com/cedricwang28/Article-management-system" target="_blank">
+                <div className={styles.viewRepo}>Repo</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+          <div>
+            <img src={require('../../assets/blog.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Blog System</h2>
+            <p className={styles.intro}>Blog Management System that allows CRUD operations on my blog site.</p>
+            <p className={styles.skill}>React Hook, Next.js, Egg.js, Mysql</p>
+            <p className={styles.goto}>
+              <a href="" target="_blank">
+                <div className={styles.viewRepo}>View</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+              <a href="https://github.com/cedricwang28/React_blog_system" target="_blank">
                 <div className={styles.viewRepo}>Repo</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
@@ -288,7 +310,7 @@ export default function Works(){
             <p className={styles.intro}>A Movie information site built with php and javascript.</p>
             <p className={styles.skill}>Javascript, jquery, PHP</p>
             <p className={styles.goto}>
-              <a href="http://cedricwang.com/grocery/" target="_blank">
+              <a href="http://cedricwang.com/madmovie/" target="_blank">
                 <div className={styles.viewRepo}>View</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
