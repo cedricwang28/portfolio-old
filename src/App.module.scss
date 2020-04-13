@@ -124,8 +124,23 @@ header{
 
 
 @media only screen and (max-width:767px){
+
+  .logo{
+    
+    font-size: 13px !important;
+    line-height: 8vh !important;
+  }
+
   .menu{
     visibility: visible;
+    margin-top: -0.7vh;
+  }
+  .close{
+    margin-top: -0.7vh;
+  }
+
+  .logo{
+    
   }
 
   
@@ -136,9 +151,17 @@ header{
     visibility: visible;
   }
 
+  header{
+    height: 8vh;
+  }
+  
+  
+
+
+
   header div{
     display: block;
-
+    
   }
   
 
@@ -148,7 +171,7 @@ header{
     box-shadow: 0px 0px 8px #333;
     position: absolute;
     right: 0;
-    top:10.2vh;
+    top:8.2vh;
     height: 90vh;
     width: 40%;
     display: block;

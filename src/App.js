@@ -23,7 +23,7 @@ export default function App(){
         <span className={styles.logo}>TIANWEI WANG</span>
         
         <div>
-          <MenuRoundedIcon className={styles.menu+' '+(barMenu?styles.openMenu:null)} style={{fill: "white", fontSize: 40}} onClick={()=>{
+          <MenuRoundedIcon className={styles.menu+' '+(barMenu?styles.openMenu:null)} style={{fill: "white", fontSize:35}} onClick={()=>{
             
             if(barMenu){
               setBarMenu(barMenu-1);
@@ -32,7 +32,7 @@ export default function App(){
             }
           
            }} />
-          <CloseIcon className={styles.close+' '+(barMenu?styles.showClose:null)} style={{fill: "white", fontSize: 40}} onClick={()=>{
+          <CloseIcon className={styles.close+' '+(barMenu?styles.showClose:null)} style={{fill: "white", fontSize:35}} onClick={()=>{
             
             if(barMenu){
               setBarMenu(barMenu-1);
