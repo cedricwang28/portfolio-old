@@ -6,14 +6,60 @@ export default function Works(){
   return (
     <div className={styles.wrapper}>
       <h1>My Projects</h1>
+      
 
       <div className={styles.grid}>
 
         <div className={styles.card}>
 
           <div className={styles.imgContainer}>
+            <img src={require('../../assets/orsie.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Backend Management</h2>
+            <p className={styles.intro}>A real backend management system for Durham College's ORSIE event. It allows CRUD operations and pdf report download</p>
+            <p className={styles.skill}>React Hook, Express, Node.js, Mongodb</p>
+            <p className={styles.goto}>
+              <a href="https://github.com/cedricwang28/ORSIE_backend_management" target="_blank">
+                <div className={styles.viewRepo}>View</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+              <a href="https://github.com/cedricwang28/ORSIE_backend_management" target="_blank">
+                <div className={styles.viewRepo}>Repo</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+
+          <div className={styles.imgContainer}>
+            <img src={require('../../assets/lakeview.png')}></img>
+          </div>
+          
+          <div className={styles.text}>
+            <h2>Lakeview Park</h2>
+            <p className={styles.intro}>A mobile phone navigation Web app made for Oshawa Lakeview Park tourists, with geolocation feature included, users can navigate based on real-time location.</p>
+            <p className={styles.skill}>Javascript, Geolocation, Google Map API</p>
+            <p className={styles.goto}>
+              <a href="https://cedricwang28.github.io/DC_app/" target="_blank">
+                <div className={styles.viewRepo}>View</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+              <a href="https://github.com/cedricwang28/DC_app" target="_blank">
+                <div className={styles.viewRepo}>Repo</div>
+                <div><img src={require('../../assets/arrow.png')} /></div>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.card}>
+
+          <div className={styles.imgContainer}>
             <img src={require('../../assets/connect4.png')}></img>
-            <div className={styles.overlay}></div>
           </div>
           
           <div className={styles.text}>
@@ -40,7 +86,7 @@ export default function Works(){
           
           <div className={styles.text}>
             <h2>MineSweeper</h2>
-            <p className={styles.intro}>Classical Mine Sweeper game with my algorithm design.</p>
+            <p className={styles.intro}>Classical Mine Sweeper game built with Javacript and Jquery as an algorithm practice.</p>
             <p className={styles.skill}>Javascipt, Jquery</p>
             <p className={styles.goto}>
               <a href="https://cedricwang28.github.io/Mine_Sweeper/" target="_blank">
@@ -109,7 +155,7 @@ export default function Works(){
             <p className={styles.intro}>A restful API used for searching objects based on Geolocation.</p>
             <p className={styles.skill}>React, Express, Mongodb, Postman</p>
             <p className={styles.goto}>
-              <a href="" target="_blank">
+              <a href="https://restful-aapi.herokuapp.com/" target="_blank">
                 <div className={styles.viewRepo}>View</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
@@ -220,7 +266,7 @@ export default function Works(){
           <div className={styles.text}>
             <h2>Responsive Site</h2>
             <p className={styles.intro}>This is an responsive site that fits laptop, tablet and cellphone.</p>
-            <p className={styles.skill}>Html, CSS, Javascript</p>
+            <p className={styles.skill}>Html, CSS, Javascript, Bootstrap</p>
             <p className={styles.goto}>
               <a href="https://cedricwang28.github.io/port-hope-fair/" target="_blank">
                 <div className={styles.viewRepo}>View</div>

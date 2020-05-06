@@ -70,7 +70,7 @@ export default function Intro(){
             <li>Dart and Flutter</li>
             <li>Node.js, Express and KOA</li>
             <li>Socket.io</li>
-            <li>Mongodb</li>
+            <li>Mongodb and Mysql</li>
             <li>Git and Github</li>
           </ul>
         </div>
