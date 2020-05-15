@@ -64,7 +64,7 @@ probability, profit margin, etc.</li>
           <li>Keeping record of daily corporate actions of CSI300/A50 companies in an excel sheet, then sent out
 the English and Chinese version to customers.</li>
           <li>Sorting and uploading reports from analysts, providing support to the maintenance of company website
-from the backstage</li>
+from backend</li>
           <li>Writing the English Version of QFII/QDII/RQFII/RQDII monthly report</li>
         </ul>
       </div>

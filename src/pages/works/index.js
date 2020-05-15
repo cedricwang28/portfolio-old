@@ -302,27 +302,7 @@ export default function Works(){
           </div>
         </div>
 
-        <div className={styles.card}>
-          <div>
-            <img src={require('../../assets/crafterina.png')}></img>
-          </div>
-          
-          <div className={styles.text}>
-            <h2>Wordpress Site</h2>
-            <p className={styles.intro}>A jewelry B2C website built with wordpress.</p>
-            <p className={styles.skill}>Wordpress, CSS</p>
-            <p className={styles.goto}>
-              <a href="http://crafterina.cedricwang.com/crafterina/" target="_blank">
-                <div className={styles.viewRepo}>View</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-              <a href="https://github.com/cedricwang28/wp-content" target="_blank">
-                <div className={styles.viewRepo}>Repo</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-            </p>
-          </div>
-        </div>
+        
 
         <div className={styles.card}>
           <div>
