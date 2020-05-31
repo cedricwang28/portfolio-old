@@ -62,7 +62,7 @@ export default function Intro(){
           <h1>Skill Set</h1>
           <ul>
             <li>HTML5 and CSS3</li>
-            <li>JavaScript with ES6+</li>
+            <li>JavaScript,Typescript with ES6+</li>
             <li>Jquery, Bootstrap</li>
             <li>SVG and Canvas</li>
             <li>React/React Hook and Redux</li>
@@ -72,6 +72,7 @@ export default function Intro(){
             <li>Socket.io</li>
             <li>Mongodb and Mysql</li>
             <li>Git and Github</li>
+            <li>Python</li>
           </ul>
         </div>
 

@@ -63,8 +63,7 @@ probability, profit margin, etc.</li>
         <ul>
           <li>Keeping record of daily corporate actions of CSI300/A50 companies in an excel sheet, then sent out
 the English and Chinese version to customers.</li>
-          <li>Sorting and uploading reports from analysts, providing support to the maintenance of company website
-from backend</li>
+          <li>Sorting and uploading reports from analysts, providing support to the company’s website in its CMS system</li>
           <li>Writing the English Version of QFII/QDII/RQFII/RQDII monthly report</li>
         </ul>
       </div>
@@ -73,7 +72,7 @@ from backend</li>
       <div className={styles.content+" "+styles.skill}>
         <ul>
             <li>HTML5 and CSS3</li>
-            <li>JavaScript with ES6+</li>
+            <li>JavaScript,Typescript with ES6+</li>
             <li>Jquery, Bootstrap</li>
             <li>SVG and Canvas</li>
             <li>React/React Hook and Redux</li>
@@ -83,6 +82,7 @@ from backend</li>
             <li>Socket.io</li>
             <li>Mongodb and Mysql</li>
             <li>Git and Github</li>
+            <li>Python</li>
           </ul>
       </div>
     </div>

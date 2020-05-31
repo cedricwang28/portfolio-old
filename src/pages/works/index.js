@@ -212,73 +212,7 @@ export default function Works(){
         </div>
 
 
-
-
-        <div className={styles.card}>
-          <div>
-            <img src={require('../../assets/lakeridge.png')}></img>
-          </div>
-          
-          <div className={styles.text}>
-            <h2>Lakeridge Health</h2>
-            <p className={styles.intro}>The app helps doctor to check if a patient eligible for lung cancer clinical trial.</p>
-            <p className={styles.skill}>Html, CSS, Javascript</p>
-            <p className={styles.goto}>
-              <a href="https://cedricwang28.github.io/Lakeridge-Health" target="_blank">
-                <div className={styles.viewRepo}>View</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-              <a href="https://github.com/cedricwang28/Lakeridge-Health" target="_blank">
-                <div className={styles.viewRepo}>Repo</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <div className={styles.card}>
-          <div>
-            <img src={require('../../assets/restaurant.png')}></img>
-          </div>
-          
-          <div className={styles.text}>
-            <h2>Restaurant UI</h2>
-            <p className={styles.intro}>This is an UI design for a restaurant online reservation app.</p>
-            <p className={styles.skill}>Html, CSS, Javascript, jquery</p>
-            <p className={styles.goto}>
-              <a href="https://cedricwang28.github.io/restaurant-UI/" target="_blank">
-                <div className={styles.viewRepo}>View</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-              <a href="https://github.com/cedricwang28/restaurant-UI" target="_blank">
-                <div className={styles.viewRepo}>Repo</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <div className={styles.card}>
-          <div>
-            <img src={require('../../assets/porthope.png')}></img>
-          </div>
-          
-          <div className={styles.text}>
-            <h2>Responsive Site</h2>
-            <p className={styles.intro}>This is an responsive site that fits laptop, tablet and cellphone.</p>
-            <p className={styles.skill}>Html, CSS, Javascript, Bootstrap</p>
-            <p className={styles.goto}>
-              <a href="https://cedricwang28.github.io/port-hope-fair/" target="_blank">
-                <div className={styles.viewRepo}>View</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-              <a href="https://github.com/cedricwang28/port-hope-fair" target="_blank">
-                <div className={styles.viewRepo}>Repo</div>
-                <div><img src={require('../../assets/arrow.png')} /></div>
-              </a>
-            </p>
-          </div>
-        </div>
+        
 
         <div className={styles.card}>
           <div>
