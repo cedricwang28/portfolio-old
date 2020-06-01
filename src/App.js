@@ -91,7 +91,7 @@ export default function App(){
       <footer>
         <p>
          <a href="https://github.com/cedricwang28"><GitHubIcon className={styles.socialIcon}></GitHubIcon></a> 
-         <a href="https://www.linkedin.com/in/tianwei-wang-84a2991a9/"><LinkedInIcon className={styles.socialIcon+' '+styles.linkIn}></LinkedInIcon></a>
+         <a href="https://www.linkedin.com/in/tianwei-w-84a2991a9/"><LinkedInIcon className={styles.socialIcon+' '+styles.linkIn}></LinkedInIcon></a>
         </p>
         Tianwei Wang © 2020
       </footer>

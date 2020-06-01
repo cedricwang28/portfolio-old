@@ -21,7 +21,7 @@ export default function Works(){
             <p className={styles.intro}>A real backend management system for Durham College's ORSIE event. It allows CRUD operations and pdf report download</p>
             <p className={styles.skill}>React Hook, Express, Node.js, Mongodb</p>
             <p className={styles.goto}>
-              <a href="https://github.com/cedricwang28/ORSIE_backend_management" target="_blank">
+              <a href="http://orsieadmin.cedricwang.com/" target="_blank">
                 <div className={styles.viewRepo}>View</div>
                 <div><img src={require('../../assets/arrow.png')} /></div>
               </a>
